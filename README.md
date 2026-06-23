@@ -35,6 +35,26 @@ Welcome to my central knowledge base and architectural playbook for the **Univer
 * **Conditional Steps:** Restricting deployments only to the `main` branch and filtering out pull requests or specific commit flags (e.g., `[skip ci]`).
 
 ---
+```
+helsinki-fullstack-cicd/
+│
+├── README.md                 # The main readme we just created
+│
+├── part0-introduction/        # If you have intro notes on CI/CD basics
+│   └── README.md
+│
+├── part1-getting-started/     # Getting started with GitHub Actions
+│   ├── README.md             # Core notes for this section
+│   └── architecture-diags/   # Any diagrams or screenshots of workflows
+│
+├── part2-deployment/          # Building, testing, and deploying pipelines
+│   ├── README.md
+│   └── workflows-breakdown.md # Specific deep dive into complex YAML configs
+│
+└── part3-cd-best-practices/   # Versioning, rollbacks, and advanced concepts
+    └── README.md
+```
+
 
 ## 📋 Recommended Resources
 * Official Course Material: [Full Stack Open - CI/CD](https://courses.mooc.fi/org/uh-cs/courses/full-stack-open-continuous-integration/)
